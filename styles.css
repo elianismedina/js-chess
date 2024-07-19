@@ -12,10 +12,12 @@ body {
     align-items: center;
     gap: 20px;
     flex-direction: column;
+    background-color:blanchedalmond;
 }
 
 h1 {
     margin-bottom: 60px;
+    margin-left: 10px;
 }
 
 p{
@@ -73,7 +75,22 @@ path {
     fill: rgb(255, 255, 255)
 }
 
+@media (max-width: 480px) {
+    #gameboard {
+        width: 345px;
+        height: 345px;
+    }
 
+    .square {
+        width: 43px;
+        height: 43px;
+    }
+
+    .square svg {
+        width: 30px;
+        height: 30px;
+    }
+}
 
 
 
